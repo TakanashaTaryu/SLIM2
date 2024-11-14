@@ -80,7 +80,8 @@ Follow these steps to set up your development environment:
    If applicable, run the migrations and seeders to create tables and populate initial data:
 
    ```bash
-   php artisan migrate --seed
+   php artisan migrate:fresh
+   php artisan db:seed
    ```
 
 8. **Compile front-end assets**
